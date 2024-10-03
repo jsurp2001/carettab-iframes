@@ -4,5 +4,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsla(210, 29, 24, 1);
+    background-color: rgba(43, 61, 79, 1);
 }
