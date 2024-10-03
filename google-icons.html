@@ -1,14 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google Icons</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            background-color: hsla(210, 29, 24, 1);
+            gap: 5px;
+        }
+        .grid-item {
+            background-color: hsla(210, 29, 24, 1);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .grid-item img {
+            width: 32px;
+            height: 32px;
+        }
+        .grid-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            margin-top: 10px;
+            display: block;
+        }
+        .grid-item a:hover {
+            color: #007bff;
+        }
+    </style>
 </head>
 <body>
     <div class="grid">
+        <div class="grid-item">
+            <a href="https://mail.google.com/mail/?authuser=0" target="_blank">
+                <img src="google-icons/gmail.png" alt="Gmail">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://drive.google.com/drive/starred" target="_blank">
+                <img src="google-icons/google-drive.png" alt="Google Drive">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://calendar.google.com/calendar?authuser=0" target="_blank">
+                <img src="google-icons/google-calendar.png" alt="Google Calendar">
+            </a>
+        </div>
         <div class="grid-item">
             <a href="https://docs.google.com/document/create" target="_blank">
                 <img src="google-icons/google-docs.png" alt="Google Docs">
@@ -22,6 +65,16 @@
         <div class="grid-item">
             <a href="https://docs.google.com/presentation/create" target="_blank">
                 <img src="google-icons/google-slides.png" alt="Google Slides">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://photos.google.com/?authuser=0" target="_blank">
+                <img src="google-icons/google-photos.png" alt="Google Photos">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://youtube.com" target="_blank">
+                <img src="google-icons/youtube.png" alt="YouTube">
             </a>
         </div>
     </div>
